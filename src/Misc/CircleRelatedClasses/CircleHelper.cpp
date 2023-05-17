@@ -13,8 +13,7 @@ void CircleHelper::checkCircleSpecs(const double& radius) {
 
 double CircleHelper::getArea(const double& radius) {
     checkCircleSpecs(radius);
-//    return std::numbers::pi * radius * radius;
-	return 3.1415 * radius * radius;
+    return std::numbers::pi * radius * radius;
 }
 
 double CircleHelper::getArea(const double& mass, const double& density) {

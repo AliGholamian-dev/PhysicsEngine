@@ -6,8 +6,8 @@
 #include <numbers>
 
 
-//static constexpr double maxRotation{2 * std::numbers::pi};
-static constexpr double maxRotation{2 * 3.1415};
+static constexpr double maxRotation{2 * std::numbers::pi};
+
 Body::Body(ID id,
            const BodyType& bodyType,
            const Position2D& initialCenterPosition,

@@ -5,6 +5,8 @@
 #include "PolygonHelper.h"
 #include "CircleHelper.h"
 
+///TODO: This file in dirty and just for test: ignore for now
+
 CustomWorld::CustomWorld() :
         World(),
         mapBasedBodyPointerHolder(std::make_shared<MapBasedBodyPointerHolder>()),

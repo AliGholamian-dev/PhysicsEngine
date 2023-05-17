@@ -17,6 +17,8 @@
 #include "Body.h"
 #include "IncrementalUniqueIdGenerator.h"
 
+///TODO: This file in dirty and just for test: ignore for now
+
 class MovingObject : public Body, public KinematicBody, public RigidBody, public CollidingBody
 {
     public:
